@@ -48,6 +48,5 @@
   },
   "devDependencies": {
     "http-proxy-middleware": "^1.0.3"
-  },
-  "homepage": "https://davidekim98.github.io/shop-app"
+  }
 }
