@@ -58,7 +58,7 @@ function FileUpload(props) {
 				{Images.map((image, index) => (
                     <div onClick={()=>deleteHandler(image)} key={index}>
                         <img style={{ minWidth: '300px', width: '300px', height: '240px' }}
-                            src={`https://shoppingmalldkbackend.run.goorm.io/${image}`}
+                            src={`/${image}`}
 							alt={"Uploaded Image"}
                         />
                     </div>

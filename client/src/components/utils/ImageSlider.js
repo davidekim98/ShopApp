@@ -9,7 +9,7 @@ function ImageSlider(props) {
 					<div key={index}>
 						<img 
 							style={{width:'100%', height:'150px'}}
-							src={`https://shoppingmalldkbackend.run.goorm.io/${image}`}
+							src={`/${image}`}
 						/>
 					</div>
 				))}

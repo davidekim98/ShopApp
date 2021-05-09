@@ -6,7 +6,7 @@ function UserCardBlock(props) {
 	const renderCartImage = (images) => {
         if (images.length > 0) {
             let image = images[0]
-            return `https://shoppingmalldkbackend.run.goorm.io/${image}`
+            return `/${image}`
         }
     }
 	
